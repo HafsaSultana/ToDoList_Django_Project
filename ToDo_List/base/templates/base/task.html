@@ -1,0 +1,10 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<h1>Task: {{object}}</h1>
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">&#8592; Back</a>
+</div>
+
+{% endblock content %}
